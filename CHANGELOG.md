@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/eduardoborges/test/compare/v1.1.0...v1.1.1) (2022-06-29)
+
+
+### Bug Fixes
+
+* fix deployment ([53f4a71](https://github.com/eduardoborges/test/commit/53f4a71d15d9bb940d12b4c1756d260d09e6f533))
+
 # [1.1.0](https://github.com/eduardoborges/test/compare/v1.0.1...v1.1.0) (2022-06-29)
 
 
