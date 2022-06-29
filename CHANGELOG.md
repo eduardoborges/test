@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/eduardoborges/test/compare/v1.0.1...v1.1.0) (2022-06-29)
+
+
+### Features
+
+* generate release ([662d908](https://github.com/eduardoborges/test/commit/662d908f55584584de12ea7328c649deb38211bd))
+
 ## [1.0.1](https://github.com/eduardoborges/test/compare/v1.0.0...v1.0.1) (2022-06-29)
 
 
