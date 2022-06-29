@@ -1,0 +1,33 @@
+name: Deployment
+
+concurrency: 
+  group: production
+  cancel-in-progress: true
+
+on:
+  release:
+    types: 
+      - published
+
+jobs:
+  deploy-staging:
+    name: Staging Deploy
+    runs-on: ubuntu-latest
+    environment: 
+      name: STAGING
+      url: https://eduardoborges.dev
+    steps:
+      - name: deploy
+        run: |
+          echo "Deploy Staging!"
+
+   deploy-production:
+    name: Production Deploy
+    runs-on: ubuntu-latest
+    environment: 
+      name: STAGING
+      url: https://eduardoborges.dev
+    steps:
+      - name: deploy
+        run: |
+          echo "Deploy Staging!"
