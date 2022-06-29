@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/eduardoborges/test/compare/v1.0.0...v1.0.1) (2022-06-29)
+
+
+### Bug Fixes
+
+* fix deploy publish ([af8e55f](https://github.com/eduardoborges/test/commit/af8e55f60db26ba93d163d81ade8091bf8334aa8))
+
 # 1.0.0 (2022-06-29)
 
 
