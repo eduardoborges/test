@@ -10,22 +10,20 @@ on:
       - published
 
 jobs:
-  deploy-staging:
+  staging:
     name: Staging Deploy
     runs-on: ubuntu-latest
-    environment: 
-      name: STAGING
-      url: https://eduardoborges.dev
+    environment: STAGING
     steps:
       - name: deploy
         run: |
-          echo "Deploy Staging!"
+          echo "Deploy Staging!";
 
-   deploy-production:
+  production:
     name: Production Deploy
     runs-on: ubuntu-latest
     environment: 
-      name: STAGING
+      name: PRODUCTION
       url: https://eduardoborges.dev
     steps:
       - name: deploy
